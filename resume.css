@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
 }
 .page-wrapper{
     display: flex;
@@ -47,7 +47,6 @@ html{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
-    overflow: hidden;
 }
 .left-section, .left-section a{
     color: rgb(255, 255, 255);
@@ -67,7 +66,6 @@ html{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
-    overflow: hidden;
 }
 .right-section{
     margin: 0 auto;
@@ -100,11 +98,13 @@ html{
 }
 .see-more{
     position: absolute;
-    right: -100px;
-    bottom: -10px;
+    right: 0;
+    text-align: right;
+    top: 5px;
     padding: 0;
     margin: 0;
     text-decoration: none;
+    display: inline;
 }
 .see-more:hover{
     color: grey;
@@ -117,8 +117,32 @@ html{
 
 @media screen and (width >= 768px){
     body{
-      border: 8px solid black;
       width: 768px;
       margin: auto;
+    }
+  }
+  @media screen and (width <= 768px) {
+    .page-wrapper{
+        border: 5px solid black;
+        
+    }
+    .black-line, .white-line{
+        padding: 0;
+        margin: 0;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header-info{
+        padding: 0;
+        margin: 0;
+    }
+    .left-section-wrapper{
+        margin: 0 5px;
+    }
+  }
+  @media screen and (width <= 488px) {
+    .email{
+        font-size: 9px;
     }
   }
