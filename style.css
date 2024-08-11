@@ -59,7 +59,7 @@ a:hover{
 #hamburger-nav{
  display: none;
 }
-hameburger-menu{
+.hameburger-menu{
   position: relative;
   display: inline-block;
 }

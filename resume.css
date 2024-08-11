@@ -53,6 +53,11 @@ section{
     color: white;
     width: 35%;
     background-color: rgb(31, 31, 31);
+    text-decoration: none;
+    transition: all .3s;
+}
+.left-section a:hover{
+    color: grey;
 }
 /* right section */
 
