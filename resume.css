@@ -10,7 +10,7 @@
 .page-wrapper{
     display: flex;
     margin: auto;
-    border: 5px solid rgb(182, 182, 182);
+    border: 5px solid rgb(31, 31, 31);
     width: 50%;
     height: 100vh;
 }
@@ -33,6 +33,9 @@ html{
 .profile-pic{
     margin: auto;
     width: 75%;
+}
+.email{
+    height: 2.5rem;
 }
 
 /* sections */
@@ -59,6 +62,7 @@ section{
 .left-section a:hover{
     color: grey;
 }
+
 /* right section */
 
 .right-section-wrapper{
