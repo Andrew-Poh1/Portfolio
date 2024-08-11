@@ -308,8 +308,8 @@ article .icon{
 .project-img{
   border-radius: 2rem;
   object-fit: contain;
-  width: 30rem;
-  height: 15rem;
+  width: 12rem;
+  height: 6rem;
 }
 .project-title{
   margin: 1rem;

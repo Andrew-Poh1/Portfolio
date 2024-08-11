@@ -42,7 +42,7 @@ html{
 /* left section */
 
 .left-section-wrapper{
-    margin: 0 50px;
+    margin: 0 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -99,12 +99,9 @@ html{
 .see-more{
     position: absolute;
     right: 0;
-    text-align: right;
+    text-align: center;
     top: 5px;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    display: inline;
+    text-decoration: none; 
 }
 .see-more:hover{
     color: grey;
@@ -124,7 +121,6 @@ html{
   @media screen and (width <= 768px) {
     .page-wrapper{
         border: 5px solid black;
-        
     }
     .black-line, .white-line{
         padding: 0;
@@ -141,8 +137,18 @@ html{
         margin: 0 5px;
     }
   }
-  @media screen and (width <= 488px) {
-    .email{
-        font-size: 9px;
+  @media screen and (width <= 483px){
+    .see-more{
+        top: 30px;
+    }
+  }
+  @media screen and (width <= 429px){
+    .see-more{
+        top: 45px;
+    }
+  }
+  @media screen and (width <= 371px){
+    .see-more{
+        top: 5px;
     }
   }
